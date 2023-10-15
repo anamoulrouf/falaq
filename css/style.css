@@ -1,10 +1,63 @@
+@font-face {
+  font-family: 'Mazius';
+  src: url('https://assets.website-files.com/63f5d378a903c2a12583ce2f/63f89aa6a3a619000cf5656b_MAZIUS.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Falaq';
+  src: url('https://assets.website-files.com/63f5d378a903c2a12583ce2f/63f89ac6ea9b9829e65e196f_Aeonik-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Falaq';
+  src: url('https://assets.website-files.com/63f5d378a903c2a12583ce2f/63f89ac698df869a1a3076eb_Aeonik-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Falaq';
+  src: url('https://assets.website-files.com/63f5d378a903c2a12583ce2f/63f89ac78fa23e54bccd6d83_Aeonik-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Falaq';
+  src: url('https://assets.website-files.com/63f5d378a903c2a12583ce2f/63f89ac7f86880b5cf566b4f_Aeonik-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Falaq';
+  src: url('https://assets.website-files.com/63f5d378a903c2a12583ce2f/63f89ac72fcc2089b6769633_Aeonik-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Falaq';
+  src: url('https://assets.website-files.com/63f5d378a903c2a12583ce2f/63f89ac72fcc2040d3769634_Aeonik-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
 body{
-    color: #212121;
-    font-family: 'Manrope', sans-serif;
-    background: #fafafa;
+    color: #fff;
+    font-family: 'Falaq', 'Manrope', sans-serif;
+    background: #1D2024;
 }
 .text-muted{
-    color: #727272 !important;
+    color: #ffffff74 !important;
 }
 /*  Color  */
 .primary-color{
@@ -57,7 +110,7 @@ body{
 /* ---Typhography--- */
 
 body{
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Falaq', 'Manrope', sans-serif;
     font-size: 16px;
     font-weight: 300;
 }
@@ -86,59 +139,60 @@ body{
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 700;
-    line-height: 1.25;
+    line-height: 1.15;
 }
 h1, .h1{
-  font-size: 2.75rem;
+  font-size: 6.5rem;
 }
 h2, .h2{
-  font-size: 2.25rem;
+  font-size: 4.7rem;
 }
 h3, .h3{
-  font-size: 1.75rem;
+  font-size: 3.6rem;
 }
 h4, .h4{
-  font-size: 1.5rem;
+  font-size: 2.8rem;
 }
 h5, .h5{
-  font-size: 1.25rem;
+  font-size: 2.0rem;
+  letter-spacing: .5px;
 }
 h6, .h6{
-  font-size: .875rem;
+  font-size: 1.25rem;
   letter-spacing: 1px;
 }
 .display-1, .display-2, .display-3, .display-4{
     font-weight: 300;
-    line-height: 1.25;
+    line-height: 1;
 }
 .display-4{
-    font-size:3.25rem;
+    font-size:5.5rem;
 }
 .display-3{
-    font-size:4rem;
+    font-size:7.5rem;
 }
 .display-2{
-    font-size:4.75rem;
+    font-size:8.75rem;
 }
 .display-1{
-    font-size:5.5rem;
+    font-size:10.5rem;
 }
 
 p, .p{
-  font-size: 1rem;
-  line-height: 1.5;
-  letter-spacing: .02rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: .02rem;
 }
 .p-lg{
-    font-size: 1.15rem;
+    font-size: 1.5rem;
 }
 .p-sm{
-  font-size: .875rem;
-  letter-spacing: 1px;
+    font-size: .875rem;
+    letter-spacing: 1px;
 }
 .p-xsm{
     font-size: .75rem;
-  letter-spacing: 1px;
+    letter-spacing: 1px;
 }
 
 
@@ -407,13 +461,13 @@ a:focus, a:hover, a:active{
 
 /* ---Button---  */
 .btn{
-    font-size: 1rem;
+    font-size: 1.25rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border-radius: 3rem;
     font-weight: 600;
     border-color: transparent;
-    padding: .5rem 1.25rem;
+    border-radius: 3rem;
+    padding: .75rem 2rem;
     box-shadow: none;
     -webkit-transition: 0.3s all ease-in-out;
     -moz-transition: 0.3s all ease-in-out;
@@ -421,42 +475,73 @@ a:focus, a:hover, a:active{
     -ms-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
 }
+
 .btn-sm{
-    font-size: .75rem;
+    font-size: 1rem;
+    padding: .5rem 1rem;
 }
 .btn-lg{
-    font-size: 1.15rem;
+    font-size: 2.25rem;
+    padding: 1rem 2.5rem;
 }
+
+
+
+.btn-primary{
+    background: linear-gradient(135deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+    background-size: 600%;
+    animation: anime 16s linear infinite;
+    -webkit-animation: anime 16s linear infinite;
+    -moz-animation: anime 16s linear infinite;
+    -o-animation: anime 16s linear infinite;
+    -ms-animation: anime 16s linear infinite;
+    color: #fff;
+}
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.btn-outline-primary{
+    color: #fff;
+    border-color: #fff;
+}
+
 .btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disable{
     -webkit-transition: 0.3s all ease-in-out;
     -moz-transition: 0.3s all ease-in-out;
     -o-transition: 0.3s all ease-in-out;
     -ms-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
-    box-shadow: 0 0 16px 0.16rem #003fff32;
     border-color: transparent;
 }
 
-
-.btn-primary{
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus{
     background: #003FFF;
     color: #fff;
 }
-.btn-outline-primary{
-    color: #003FFF;
-    border-color: #003FFF;
-}
-.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus{
-    background: #0029E6;
-    color: #fff;
-}
+
+
 
 
 .btn-secondary{
     background: #E843A1;
     color: #fff; 
 }
-.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus{
+.btn-outline-secondary{
+    color: #E843A1;
+    border-color: #E843A1;
+}
+
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus, {
     background: #E30070;
     color: #fff;
 }
@@ -538,7 +623,7 @@ a:focus, a:hover, a:active{
 /* Navbar (menubar) */
 .navbar .logo .logo-img { 
     height: 3.5rem; 
-    width: auto; 
+    width: auto;
 }
 .logo-mobile{
         display: none;
@@ -548,8 +633,7 @@ a:focus, a:hover, a:active{
     border: 0px;
     width: 96%;
     margin: 1rem auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
 }
 
 .navbar .navbar-nav{
@@ -580,11 +664,15 @@ a:focus, a:hover, a:active{
     transition: 0.3s all ease-in-out;
 }
 
+
 .top-nav-collapse{
-    background-color: #fff;
+    background-color: #10121459;
+    backdrop-filter: blur(20px);
     border-radius: 5rem;
-    box-shadow: 0 0 1.5rem 0.48rem #003FFF16;
+    box-shadow: 0 0 1.5rem 0.48rem #19185E16;
     margin-top: .125rem;
+    padding-left: 1.5rem;
+    width: 98%;
 }
 .navbar, .top-nav-collapse{
     -webkit-transition: 0.5s all ease-in-out;
@@ -595,7 +683,7 @@ a:focus, a:hover, a:active{
 }
 .navbar-light .navbar-toggler{
     background-color: transparent;
-    border-color: #003FFF16;
+    border-color: #19185E16;
     color: #003FFF32;
     min-height: 48px;
     padding: .5rem;
@@ -671,14 +759,17 @@ form .form-group{
 form .form-group label{
     margin-bottom: .5rem;
 }
+.form-control{
+    color: #ffffff;
+}
 form#contact-form input, form#contact-form textarea{
     text-align: center;
-    font-size: 1.15rem;
-    padding: .75rrem;
-    border-radius: .5rem;
-    border: 1px solid #ddd;
-    background: #fafafa;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
     font-weight: 400;
+    border: 2px solid #ffffff56;
+    background: #ffffff08;
 }
 
 form#contact-form input:hover,
@@ -691,11 +782,11 @@ form#contact-form textarea:active,
 form#contact-form textarea:visited, 
 form#contact-form textarea:focus,
 form#contact-form textarea:target{
-    color: #212121;
-    font-size: 1.15rem;
+    color: #ffffff;
+    font-size: 1.5rem;
     font-weight: 500;
     border-color: #bbb;
-    box-shadow: 0 0 24px 0.48rem #003FFF08;
+    box-shadow: 0 0 24px 0.48rem #00000004;
 
 }
 
@@ -750,7 +841,7 @@ header{
     width: 96%;
     height: auto;
     margin: 1rem auto;
-    margin-top: 6rem;
+    margin-top: 8rem;
     border-radius:2rem;
 }
 header, header:hover{
@@ -761,21 +852,20 @@ header, header:hover{
     transition: 0.3s all ease-in-out;
 }
 header:hover{
-    box-shadow: 0 0 1rem 0.4rrem #003FFF00;
+    box-shadow: 0 0 1rem 0.4rrem #00000000;
 }
 
 
 /* Sections  */
 
 section.content{
-    padding: 5.5rem 0rem;
+    padding: 8rem 0rem;
 }
 section.content, footer{
-    width: 96%;
+    width: 100%;
     height: auto;
-    margin: 1rem auto;
-    border-radius:1.25rem;
-    background-color: #fff;
+    margin: 0rem auto;
+    border-radius:0rem;
     -webkit-transition: 0.3s all ease-in-out;
     -moz-transition: 0.3s all ease-in-out;
     -o-transition: 0.3s all ease-in-out;
@@ -783,7 +873,7 @@ section.content, footer{
     transition: 0.3s all ease-in-out;
 }
 section.content:hover, footer:hover{
-    box-shadow: 0 0 1rem 0.4rem #003FFF08;
+    box-shadow: 0 0 1rem 0.4rem #00000004;
     -webkit-transition: 0.3s all ease-in-out;
     -moz-transition: 0.3s all ease-in-out;
     -o-transition: 0.3s all ease-in-out;
@@ -795,11 +885,6 @@ section .content-alignment{
     align-items: center;
 }
 
-section img{
-    width: 80%;
-    height: 80%;
-}
-
 section .content-block{
     width: 72%;
     margin: 0 auto;
@@ -809,6 +894,19 @@ section .content-block{
     margin-top: 6.5rem !important;
 }
 
+section#services img.service-icon{
+    width: 8rem;
+    height: 8rem;
+}
+
+section#works img.company-logo{
+    height: 3rem;
+    width: auto;
+}
+
+section#contact-form-section{
+    background: #ffffff08;
+}
 
 @media only screen and (max-width: 480px){
     section .content-block{
@@ -824,9 +922,8 @@ section .content-block{
 
 /* footer  */
 footer { 
-    padding: 7.5rem 0px 2.5rem 0px; 
-    margin-bottom: 1.5rem;
-    background: #fdfdfd;
+    padding: 8rem 0px 4rem 0px; 
+    background: #ffffff04;
 }
 footer .logo{
     height: 2.75rem;
@@ -842,7 +939,11 @@ footer .social-icons {
 }
 footer .social-icons a { 
     font-size: 1.5rem; 
-    margin: .5rem;
+    margin: 1rem;
+}
+footer .social-icons img{
+    width: 1 ream;
+    height: auto;
 }
 .linkedin{
     color: #1B66C2;
@@ -860,8 +961,14 @@ footer .social-icons a {
     color: #f64900;
 }
 
+
+
+footer a.link{
+    color: #fff;
+}
+
 footer .social-icons a:hover { 
-    color: #212121;
+    color: #fff;
 }
 footer .social-icons a, footer .social-icons a:hover{
     -webkit-transition: 0.3s all ease-in-out;
@@ -874,7 +981,7 @@ footer .social-icons a, footer .social-icons a:hover{
 @media only screen and (max-width: 480px){
     footer {}
     footer .logo{ 
-        height: 2rem; 
+        height: 3rem; 
         width: auto; 
     }
 }
