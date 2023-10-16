@@ -205,7 +205,7 @@ a, a:focus, a:hover, a:active{
     font-weight: 600;
 }
 a{
-    color: #003FFF;
+    color: #fff;
     -webkit-transition: 0.3s all ease-in-out;
     -moz-transition: 0.3s all ease-in-out;
     -o-transition: 0.3s all ease-in-out;
@@ -213,7 +213,7 @@ a{
     transition: 0.3s all ease-in-out;
 }
 a:focus, a:hover, a:active{
-    color: #0029E6;
+    color: #717fff;
     -webkit-transition: 0.3s all ease-in-out;
     -moz-transition: 0.3s all ease-in-out;
     -o-transition: 0.3s all ease-in-out;
@@ -528,7 +528,7 @@ a:focus, a:hover, a:active{
 }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus{
-    background: #003FFF;
+    background: #717fff;
     color: #fff;
 }
 
@@ -591,10 +591,10 @@ a:focus, a:hover, a:active{
 
 
 .btn-link{
-    color: #003FFF;
+    color: #fff;
 }
 .btn-link:, .btn-link:active, .btn-link:focus{
-    color: #212121;
+    color: #717fff;
 }
 
 
@@ -636,7 +636,7 @@ a:focus, a:hover, a:active{
     border: 0px;
     width: 96%;
     margin: 1rem auto;
-    padding: 1rem;
+    padding: .75rem 1rem;
 }
 
 .navbar .navbar-nav{
@@ -708,7 +708,10 @@ a:focus, a:hover, a:active{
     }
     .logo-mobile{
         display: block;
+        margin-right: auto;
+        margin-left: 0.5rem;
     }
+
 }
 @media only screen and (max-width: 960px){
     .navbar{
@@ -719,13 +722,22 @@ a:focus, a:hover, a:active{
         border-radius: 2rem;
     }
     .navbar-collapse.collapsing, .navbar-collapse.collapse {
-        background-color: #fff;
+        background-color: #10121488;
         text-align: end;
         padding: 1.5rem;
         border-radius: .5rem .5rem 1rem 1rem;
     }
     .navbar .navbar-nav>li{
         margin-bottom: 1.25rem;
+        text-align: center;
+    }
+    .navbr-text{
+        text-align: center;
+    }
+    a.navbar-brand.logo.logo-desktop{
+        display: block;
+        margin-right: auto;
+        margin-left: 0.5rem;
     }
 }
 
@@ -801,8 +813,8 @@ form#contact-form input:target,
 form#contact-form textarea:active, 
 form#contact-form textarea:focus,
 form#contact-form textarea:target{
-    border-color: #0029E6;
-    box-shadow: 0 0 24px 0.48rem #003FFF10;
+    border-color: #717fff;
+    box-shadow: 0 0 24px 0.48rem #003FFF24;
 }
 
 form#contact-form input, 
@@ -898,7 +910,7 @@ section .content-block{
     margin-top: 6.5rem !important;
 }
 
-section#services img.service-icon{
+section.services img.service-icon{
     width: 8rem;
     height: 8rem;
 }
@@ -911,6 +923,99 @@ section#works img.company-logo{
 section#contact-form-section{
     background: #ffffff08;
 }
+
+section#falaq-clients{
+    margin-top: -0rem;
+    max-width: 100%;
+    background: #25272d00;
+}
+
+.falaq-clients{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.falaq-clients img{
+    height: 4rem;
+    width: auto;
+    margin: 1rem 1rem;
+    opacity: .76;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+.falaq-clients img:hover{
+    opacity: 1;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+
+
+section.services{
+    border-radius: 0rem;
+    width: 100%;
+    height: auto;
+    background: #ffffff08;
+    margin: 0px;
+}
+
+section .portfolio-items img{
+    width: 56%;
+    height: auto;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 640px) {
+    section p.section-sub-title{
+        font-size: 1rem;
+    }
+    section p.section-heading{
+        font-size: 2.15rem;
+    }
+    section p.h4{
+        font-size: 1.75rem;
+    }
+}
+@media only screen and (min-width: 641px)  and (max-width: 768px) {
+    section p.section-sub-title{
+        font-size: 1.5rem;
+    }
+    section p.section-heading{
+        font-size: 2.6rem;
+    }
+    section p.h4{
+        font-size: 2rem;
+    }
+
+}
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+    section p.section-sub-title{
+        font-size: 1.5rem;
+    }
+    section p.section-heading{
+        font-size: 3rem;
+    }
+    section p.h4{
+        font-size: 2.25rem;
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1600px) {
+    section p.section-sub-title{
+        font-size: 1.75rem;
+    }
+    section p.section-heading{
+        font-size: 3.6rem;
+    }
+    section p.h4{
+        font-size: 2.5rem;
+    }
+}
+
 
 @media only screen and (max-width: 480px){
     section .content-block{
@@ -942,11 +1047,11 @@ footer .social-icons {
     margin-bottom: 1rem;
 }
 footer .social-icons a { 
-    font-size: 1.5rem; 
+    font-size: 2rem; 
     margin: 1rem;
 }
 footer .social-icons img{
-    width: 1 ream;
+    width: 1.75rem;
     height: auto;
 }
 .linkedin{

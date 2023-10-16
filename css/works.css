@@ -1,0 +1,133 @@
+/* header (hero) Area */
+
+header{
+    overflow: hidden;
+    background: #141518cc;
+    width: 100%;
+    max-width: none;
+    height: 56vh;
+    margin: 0%;
+    border-radius: 0;
+}
+header .header-content-wrap{
+    height: 56vh;
+}
+header .title-hero{}
+header .short-description{}
+header .h2.sub-title-hero{}
+header .btn{}
+header .header-img{}
+header .header-img img{}
+header.header-content .header-content-block{}
+
+header .header-video{
+    width: 100%;
+    height: 56%;
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    border-radius:0rem;
+    overflow: hidden;
+}
+header .header-video video{
+    width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 960px){
+    header .header-img{}
+}
+
+header.header-content .header-content-block br.line-break{
+    display: none;
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 640px) {
+    header.header-content .header-content-block{
+        margin-top: -2.5rem;
+        padding-top: 2rem;
+    }
+    header.header-content .header-content-block br.line-break{
+        display: block;
+    }
+    header .title-hero{
+        font-size: 3.5rem;
+    }
+    header .sub-title-hero{
+        font-size: 1rem;
+    }
+    header, header .header-content-wrap, header .header-video{
+        height: 80vh;
+    }
+    header .header-video video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 641px)  and (max-width: 768px) {
+    header .title-hero{
+        font-size: 4rem;
+    }
+    header .sub-title-hero{
+        font-size: 1.25rem;
+    }
+    
+    header, header .header-content-wrap, header .header-video{
+        height: 80vh;
+    }
+    header .header-video video{
+        width: auto;
+        height: 100%;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    header .title-hero{
+        font-size: 4.7rem;
+    }
+    header .sub-title-hero{
+        font-size: 1.5rem;
+    }
+    header .header-video video{
+        width: auto;
+        height: 100%;
+    }
+    header.header-content .header-content-block{
+        margin-top: -4.5rem;
+        padding-top: 2rem;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1024px) {
+    header .header-video video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1600px) {
+    header .title-hero{
+        font-size: 5.5rem;
+    }
+    header .sub-title-hero{
+        font-size: 1.75rem;
+    }
+    header .header-video video{
+        width: 100%;
+        height: auto;
+    }
+    header.header-content .header-content-block{
+        margin-top: -4.5rem;
+        padding-top: 2rem;
+    }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px){
+    header .header-video video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1920px) {
+    header{}
+}
+
