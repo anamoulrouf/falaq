@@ -183,8 +183,11 @@ p, .p{
     line-height: 1.5;
     letter-spacing: .02rem;
 }
+.p-xlg{
+    font-size: 1.75rem;
+}
 .p-lg{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 .p-sm{
     font-size: .875rem;
@@ -637,24 +640,24 @@ a:focus, a:hover, a:active{
 }
 
 .navbar .navbar-nav{
-    padding: .75rem 0px;
+    padding: .75rem 0;
+    margin-left: 2rem;
 }
 .navbar .navbar-nav>li{
     padding: 0rem;
 }
 .navbar .navbar-nav>li>a.nav-link{
     text-decoration: none;
-    color: #212121;
-    padding: .5rem;
+    color: #ffffff88;
+    padding: .5rem 1rem;
     font-weight: 500;
-    border-bottom: .125rem solid transparent;
+    border-bottom: 2px solid transparent;
 }
 
 .navbar .navbar-nav>li>a.nav-link:hover, .navbar .navbar-nav>li>a:focus, .navbar .navbar-nav>li>a:active, .navbar .navbar-nav>li>a.nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
-    color: #003FFF;
-    border-color: #003FFF;
-    font-weight: 600;
-    padding: .5rem 1rem;
+    color: #fff;
+    border-color: #fff;
+    font-weight: 700;
 }
 .navbar .navbar-nav>li>a, .navbar .navbar-nav>li>a.nav-link:hover, .navbar .navbar-nav>li>a:focus, .navbar .navbar-nav>li>a:active, .navbar .navbar-nav>li>a.nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
     -webkit-transition: 0.3s all ease-in-out;
@@ -666,7 +669,7 @@ a:focus, a:hover, a:active{
 
 
 .top-nav-collapse{
-    background-color: #10121459;
+    background-color: #10121464;
     backdrop-filter: blur(20px);
     border-radius: 5rem;
     box-shadow: 0 0 1.5rem 0.48rem #19185E16;
@@ -683,8 +686,8 @@ a:focus, a:hover, a:active{
 }
 .navbar-light .navbar-toggler{
     background-color: transparent;
-    border-color: #19185E16;
-    color: #003FFF32;
+    border-color: #ffffff16;
+    color: #ffffff72;
     min-height: 48px;
     padding: .5rem;
     border-radius: 1rem;
@@ -692,6 +695,7 @@ a:focus, a:hover, a:active{
 .navbar-light .navbar-toggler:focus{
     background-color: #003FFF00;
     border-color: transparent;
+    color: #fff;
 }
 .navbar-light .navbar-toggler-icon {
     background-image: url(../img/navbar-toggler.svg);
@@ -993,7 +997,7 @@ footer .social-icons a, footer .social-icons a:hover{
 
 /* about page  */
 img.company-logo{
-    height: 3rem;
+    height: 4rem;
     width: auto;
 }
 img.img-rounded{
