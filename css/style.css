@@ -272,7 +272,10 @@ a:focus, a:hover, a:active{
 }
 
 
-
+hr{
+    border: 1px solid #999;
+    opacity: .12;
+}
 
 
 /* ---Clearfix---  */
@@ -784,7 +787,7 @@ form#contact-form input, form#contact-form textarea{
     padding: 1rem;
     border-radius: 1rem;
     font-weight: 400;
-    border: 2px solid #ffffff56;
+    border: 2px solid #ffffff40;
     background: #ffffff08;
 }
 
@@ -802,7 +805,7 @@ form#contact-form textarea:target{
     font-size: 1.5rem;
     font-weight: 500;
     border-color: #bbb;
-    box-shadow: 0 0 24px 0.48rem #00000004;
+    box-shadow: 0 0 24px 0.48rem #00000024;
 
 }
 
@@ -921,13 +924,11 @@ section#works img.company-logo{
 }
 
 section#contact-form-section{
-    background: #ffffff08;
+    background-image: linear-gradient(180deg, #ffffff00 10%, #ffffff08 50%, #ffffff00 90%), url(../img/dots.svg);
 }
 
 section#falaq-clients{
-    margin-top: -0rem;
-    max-width: 100%;
-    background: #25272d00;
+    padding: 12rem 0rem;
 }
 
 .falaq-clients{
@@ -960,13 +961,64 @@ section.services{
     border-radius: 0rem;
     width: 100%;
     height: auto;
-    background: #ffffff08;
     margin: 0px;
 }
 
 section .portfolio-items img{
     width: 56%;
     height: auto;
+}
+
+
+section .sec-lg-title{
+    height: 8rem;
+    margin-top: .16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .16;
+
+}
+section .sec-lg-title p {
+    /* background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover; */
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    text-transform: uppercase;
+    font-size: 12rem;
+    background-image: linear-gradient(135deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+    background-size: 600%;
+    animation: anime 16s linear infinite;
+    -webkit-animation: anime 16s linear infinite;
+    -moz-animation: anime 16s linear infinite;
+    -o-animation: anime 16s linear infinite;
+    -ms-animation: anime 16s linear infinite;
+}
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+section#services, section#services-dev, section#services-ai, section#services-brand, section.grid-img{
+    background-image: linear-gradient(22.5deg, #ffffff00 10%, #ffffff08 50%, #ffffff00 90%), url(../img/grid.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#contact-form-section, section#works, section#services-ux, section#services-app, section.dots-img{
+    background-image: linear-gradient(22.5deg, #ffffff00 10%, #ffffff08 60%, #ffffff00 90%), url(../img/dots.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -1029,10 +1081,33 @@ section .portfolio-items img{
 }
 
 
+
+section .team-member img {
+    border-radius: 4rem;
+    background-image: linear-gradient(22.5deg, #ffffff00 10%, #ffffff08 50%, #ffffff00 90%), url(../img/grid.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+section .team-member img:hover{
+    filter: grayscale(0%);
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+
+
 /* footer  */
 footer { 
     padding: 8rem 0px 4rem 0px; 
-    background: #ffffff04;
+    background: #ffffff02;
 }
 footer .logo{
     height: 2.75rem;
