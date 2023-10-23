@@ -30,8 +30,13 @@ header .header-video{
     overflow: hidden;
 }
 header .header-video video{
-    width: 100%;
+    width: auto;
     height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
 }
 
 header.header-content .header-content-block br.line-break{
