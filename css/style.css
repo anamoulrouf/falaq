@@ -494,7 +494,7 @@ hr{
 
 
 .btn-primary{
-    background: linear-gradient(135deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+    background: linear-gradient(135deg, #ffc004, #fe2465, #338aff, #0eefb9);
     background-size: 600%;
     animation: anime 16s linear infinite;
     -webkit-animation: anime 16s linear infinite;
@@ -533,6 +533,13 @@ hr{
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus{
     background: #717fff;
     color: #fff;
+    background: linear-gradient(135deg, #338aff, #717fff, #0eefb9);
+    background-size: 600%;
+    animation: anime 16s linear infinite;
+    -webkit-animation: anime 16s linear infinite;
+    -moz-animation: anime 16s linear infinite;
+    -o-animation: anime 16s linear infinite;
+    -ms-animation: anime 16s linear infinite;
 }
 
 
@@ -987,7 +994,7 @@ section .sec-lg-title p {
     background-image: linear-gradient(45deg, #f3ec78, #af4261);
     text-transform: uppercase;
     font-size: 12rem;
-    background-image: linear-gradient(135deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+    background-image: linear-gradient(135deg, #ffc004, #fe2465, #338aff, #0eefb9);
     background-size: 600%;
     animation: anime 16s linear infinite;
     -webkit-animation: anime 16s linear infinite;
