@@ -661,13 +661,12 @@ hr{
     color: #ffffff88;
     padding: .5rem 1rem;
     font-weight: 500;
-    border-bottom: 2px solid transparent;
+    border-bottom: 3px solid transparent;
 }
 
 .navbar .navbar-nav>li>a.nav-link:hover, .navbar .navbar-nav>li>a:focus, .navbar .navbar-nav>li>a:active, .navbar .navbar-nav>li>a.nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
     color: #fff;
     border-color: #fff;
-    font-weight: 700;
 }
 .navbar .navbar-nav>li>a, .navbar .navbar-nav>li>a.nav-link:hover, .navbar .navbar-nav>li>a:focus, .navbar .navbar-nav>li>a:active, .navbar .navbar-nav>li>a.nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
     -webkit-transition: 0.3s all ease-in-out;
@@ -675,6 +674,8 @@ hr{
     -o-transition: 0.3s all ease-in-out;
     -ms-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
+    color: #717fff;
+    border-color: #717fff;
 }
 
 
@@ -982,7 +983,7 @@ section .sec-lg-title{
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: .16;
+    opacity: .20;
 
 }
 section .sec-lg-title p {
@@ -1185,6 +1186,9 @@ footer .social-icons img{
 
 footer a.link{
     color: #fff;
+}
+footer a.link:hover{
+    color: #717fff;
 }
 
 footer .social-icons a:hover { 
