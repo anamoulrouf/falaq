@@ -54,7 +54,7 @@
 body{
     color: #fff;
     font-family: 'Falaq', 'Manrope', sans-serif;
-    background: #1D2024;
+    background: #10002e;
 }
 .text-muted{
     color: #ffffff74 !important;
@@ -213,7 +213,7 @@ a{
     transition: 0.3s all ease-in-out;
 }
 a:focus, a:hover, a:active{
-    color: #717fff;
+    color: #1FB6FF;
     -webkit-transition: 0.3s all ease-in-out;
     -moz-transition: 0.3s all ease-in-out;
     -o-transition: 0.3s all ease-in-out;
@@ -494,8 +494,8 @@ hr{
 
 
 .btn-primary{
-    background: linear-gradient(135deg, #ffc004, #fe2465, #338aff, #0eefb9);
-    background-size: 600%;
+    background: linear-gradient(135deg, #E70045, #E403B3, #7400E8, #005DDE, #00CEEC);
+    background-size: 1200%;
     animation: anime 16s linear infinite;
     -webkit-animation: anime 16s linear infinite;
     -moz-animation: anime 16s linear infinite;
@@ -531,10 +531,10 @@ hr{
 }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus{
-    background: #717fff;
+    background: #1FB6FF;
     color: #fff;
-    background: linear-gradient(135deg, #338aff, #717fff, #0eefb9);
-    background-size: 600%;
+    background: linear-gradient(135deg, #E70045, #E403B3, #7400E8, #005DDE, #00CEEC);
+    background-size: 1200%;
     animation: anime 16s linear infinite;
     -webkit-animation: anime 16s linear infinite;
     -moz-animation: anime 16s linear infinite;
@@ -604,7 +604,7 @@ hr{
     color: #fff;
 }
 .btn-link:, .btn-link:active, .btn-link:focus{
-    color: #717fff;
+    color: #1FB6FF;
 }
 
 
@@ -658,7 +658,7 @@ hr{
 }
 .navbar .navbar-nav>li>a.nav-link{
     text-decoration: none;
-    color: #ffffff88;
+    color: #ffffff;
     padding: .5rem 1rem;
     font-weight: 500;
     border-bottom: 3px solid transparent;
@@ -674,8 +674,8 @@ hr{
     -o-transition: 0.3s all ease-in-out;
     -ms-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
-    color: #717fff;
-    border-color: #717fff;
+    color: #1FB6FF;
+    border-color: #1FB6FF;
 }
 
 
@@ -823,7 +823,7 @@ form#contact-form input:target,
 form#contact-form textarea:active, 
 form#contact-form textarea:focus,
 form#contact-form textarea:target{
-    border-color: #717fff;
+    border-color: #1FB6FF;
     box-shadow: 0 0 24px 0.48rem #003FFF24;
 }
 
@@ -986,6 +986,7 @@ section .sec-lg-title{
     opacity: .20;
 
 }
+
 section .sec-lg-title p {
     /* background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
     background-size: cover; */
@@ -995,8 +996,8 @@ section .sec-lg-title p {
     background-image: linear-gradient(45deg, #f3ec78, #af4261);
     text-transform: uppercase;
     font-size: 12rem;
-    background-image: linear-gradient(135deg, #ffc004, #fe2465, #338aff, #0eefb9);
-    background-size: 600%;
+    background-image: linear-gradient(135deg, #E70045, #E403B3, #7400E8, #005DDE, #00CEEC);
+    background-size: 1200%;
     animation: anime 16s linear infinite;
     -webkit-animation: anime 16s linear infinite;
     -moz-animation: anime 16s linear infinite;
@@ -1044,7 +1045,7 @@ section#services, section#services-dev, section#services-ai, section#services-br
 }
 
 section#contact-form-section, section#works, section#services-ux, section#services-app, section.dots-img{
-    background-image: linear-gradient(22.5deg, #ffffff00 10%, #ffffff08 60%, #ffffff00 90%), url(../img/dots.svg);
+    background-image: linear-gradient(22.5deg, #ffffff00 10%, #ffffff08 50%, #ffffff00 90%), url(../img/dots.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1188,7 +1189,7 @@ footer a.link{
     color: #fff;
 }
 footer a.link:hover{
-    color: #717fff;
+    color: #1FB6FF;
 }
 
 footer .social-icons a:hover { 
