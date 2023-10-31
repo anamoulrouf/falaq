@@ -1038,6 +1038,12 @@ section .team-member img:hover{
 }
 
 
+section#falaq-featured img{
+    width: 12rem;
+    height: auto;
+}
+
+
 section#services, section#services-dev, section#services-ai, section#services-brand, section.grid-img{
     background-image: linear-gradient(22.5deg, #ffffff00 10%, #ffffff08 50%, #ffffff00 90%), url(../img/grid.svg);
     background-repeat: no-repeat;
