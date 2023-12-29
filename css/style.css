@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Mazius';
+  font-family: 'Falaq-script';
   src: url('https://assets.website-files.com/63f5d378a903c2a12583ce2f/63f89aa6a3a619000cf5656b_MAZIUS.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
@@ -53,7 +53,6 @@
 
 body{
     color: #fff;
-    font-family: 'Falaq', 'Manrope', sans-serif;
     background: #10002e;
 }
 .text-muted{
