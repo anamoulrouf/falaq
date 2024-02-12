@@ -52,7 +52,7 @@
 
 
 body{
-    color: #fff;
+    color: #ffffff;
     background: #10002e;
 }
 .text-muted{
@@ -204,7 +204,7 @@ a, a:focus, a:hover, a:active{
     font-weight: 600;
 }
 a{
-    color: #fff;
+    color: #ffffff;
     -webkit-transition: 0.5s all ease-in-out;
     -moz-transition: 0.5s all ease-in-out;
     -o-transition: 0.5s all ease-in-out;
@@ -212,7 +212,7 @@ a{
     transition: 0.5s all ease-in-out;
 }
 a:focus, a:hover, a:active{
-    color: #1FB6FF;
+    color: #40ED99;
     -webkit-transition: 0.5s all ease-in-out;
     -moz-transition: 0.5s all ease-in-out;
     -o-transition: 0.5s all ease-in-out;
@@ -481,6 +481,16 @@ hr{
     transition: 0.5s all ease-in-out;
 }
 
+.btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disable{
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+    border-color: transparent;
+    color: #ffffff;
+}
+
 .btn-sm{
     font-size: 1rem;
     padding: .5rem 1rem;
@@ -500,8 +510,24 @@ hr{
     -moz-animation: anime 16s linear infinite;
     -o-animation: anime 16s linear infinite;
     -ms-animation: anime 16s linear infinite;
-    color: #fff;
+    color: #ffffff;
 }
+.btn-outline-primary{
+    color: #ffffff;
+    border-color: #ffffff;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus{
+    background: #40ED99;
+    color: #ffffff;
+    background: linear-gradient(135deg, #003FFF, #00CEEC, #003FFF);
+    background-size: 200%;
+    animation: anime 16s linear infinite;
+    -webkit-animation: anime 16s linear infinite;
+    -moz-animation: anime 16s linear infinite;
+    -o-animation: anime 16s linear infinite;
+    -ms-animation: anime 16s linear infinite;
+}
+
 @keyframes anime {
   0% {
     background-position: 0% 50%;
@@ -515,95 +541,83 @@ hr{
 }
 
 
-.btn-outline-primary{
-    color: #fff;
-    border-color: #fff;
-}
-
-.btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disable{
-    -webkit-transition: 0.5s all ease-in-out;
-    -moz-transition: 0.5s all ease-in-out;
-    -o-transition: 0.5s all ease-in-out;
-    -ms-transition: 0.5s all ease-in-out;
-    transition: 0.5s all ease-in-out;
-    border-color: transparent;
-}
-
-.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus{
-    background: #1FB6FF;
-    color: #fff;
-    background: linear-gradient(135deg, #003FFF, #00CEEC, #003FFF);
-    background-size: 200%;
-    animation: anime 16s linear infinite;
-    -webkit-animation: anime 16s linear infinite;
-    -moz-animation: anime 16s linear infinite;
-    -o-animation: anime 16s linear infinite;
-    -ms-animation: anime 16s linear infinite;
-}
-
-
 
 
 .btn-secondary{
     background: #E843A1;
-    color: #fff; 
+    color: #ffffff; 
 }
 .btn-outline-secondary{
     color: #E843A1;
     border-color: #E843A1;
 }
-
-.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus, {
-    background: #E30070;
-    color: #fff;
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus, .btn-outline-secondary:hover, .btn-outline-secondary:active, .btn-outline-secondary:focus,{
+    background: #E843A1;
+    color: #ffffff;
 }
 
+.btn-tertiary{
+    background: #40ED99;
+    color: #212121; 
+}
+.btn-outline-tertiary{
+    color: #40ED99;
+    border-color: #40ED99;
+}
+.btn-tertiary:hover, .btn-tertiary:active, .btn-tertiary:focus, .btn-outline-tertiary:hover, .btn-outline-tertiary:active, .btn-outline-tertiary:focus, {
+    background: #40ED9932;
+    color: #fff;
+}
+.btn-tertiary:hover, .btn-outline-tertiary:hover {
+    background: #40ED9948;
+    color: #efefef;
+}
 
 .btn-success{
     background: #00C66D;
-    color: #fff;  
+    color: #ffffff;  
 }
 .btn-success:, .btn-success:active, .btn-success:focus{
     background: #00993B;
-    color: #fff;
+    color: #ffffff;
 }
 
 
 .btn-danger{
     background: #D10049;
-    color: #fff; 
+    color: #ffffff; 
 }
 .btn-danger:, .btn-danger:active, .btn-danger:focus{
     background: #A80043;
-    color: #fff;
+    color: #ffffff;
 }
 
 
 .btn-warning{
     background: #F9A825;
-    color: #fff;  
+    color: #ffffff;  
 }
 .btn-warning:, .btn-warningwarning:active, .btn-warningwarning:focus{
     background: #FF9B03;
-    color: #fff;
+    color: #ffffff;
 }
 
 
 .btn-info{
     background: #4A6DFF;
-    color: #fff;  
+    color: #ffffff;  
 }
 .btn-info:, .btn-info:active, .btn-info:focus{
     background: #003CE6;
-    color: #fff;
+    color: #ffffff;
 }
 
 
 .btn-link{
-    color: #fff;
+    color: #ffffff;
 }
 .btn-link:, .btn-link:active, .btn-link:focus{
-    color: #1FB6FF;
+    color: #40ED99;
 }
 
 
@@ -664,8 +678,8 @@ hr{
 }
 
 .navbar .navbar-nav>li>a.nav-link:hover, .navbar .navbar-nav>li>a:focus, .navbar .navbar-nav>li>a:active, .navbar .navbar-nav>li>a.nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
-    color: #fff;
-    border-color: #fff;
+    color: #ffffff;
+    border-color: #ffffff;
 }
 .navbar .navbar-nav>li>a, .navbar .navbar-nav>li>a.nav-link:hover, .navbar .navbar-nav>li>a:focus, .navbar .navbar-nav>li>a:active, .navbar .navbar-nav>li>a.nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
     -webkit-transition: 0.5s all ease-in-out;
@@ -673,8 +687,8 @@ hr{
     -o-transition: 0.5s all ease-in-out;
     -ms-transition: 0.5s all ease-in-out;
     transition: 0.5s all ease-in-out;
-    color: #1FB6FF;
-    border-color: #1FB6FF;
+    color: #40ED99;
+    border-color: #40ED99;
 }
 
 
@@ -705,7 +719,7 @@ hr{
 .navbar-light .navbar-toggler:focus{
     background-color: #003FFF00;
     border-color: transparent;
-    color: #fff;
+    color: #ffffff;
 }
 .navbar-light .navbar-toggler-icon {
     background-image: url(../img/navbar-toggler.svg);
@@ -822,7 +836,7 @@ form#contact-form input:target,
 form#contact-form textarea:active, 
 form#contact-form textarea:focus,
 form#contact-form textarea:target{
-    border-color: #1FB6FF;
+    border-color: #40ED99;
     box-shadow: 0 0 24px 0.48rem #003FFF24;
 }
 
@@ -930,7 +944,7 @@ section#works img.company-logo{
 }
 
 section#contact-form-section{
-    background-image: linear-gradient(180deg, #ffffff00 10%, #ffffff08 50%, #ffffff00 90%), url(../img/dots.svg);
+    background-image: linear-gradient(22.5deg, #ffffff00 10%, #ffffff08 50%, #ffffff00 90%), url(../img/dots.svg);
 }
 
 section#falaq-clients{
@@ -1017,23 +1031,24 @@ section .sec-lg-title p {
 
 section .team-member img {
     border-radius: 4rem;
-    background-image: linear-gradient(22.5deg, #ffffff00 10%, #ffffff08 50%, #ffffff00 90%), url(../img/grid.svg);
+    background-image: linear-gradient(22.5deg, #ffffff00 20%, #ffffff08 50%, #ffffff00 80%), url(../img/grid.svg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(100%);
-    -webkit-transition: 0.5s all ease-in-out;
-    -moz-transition: 0.5s all ease-in-out;
-    -o-transition: 0.5s all ease-in-out;
-    -ms-transition: 0.5s all ease-in-out;
-    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
 }
 section .team-member img:hover{
     filter: grayscale(0%);
-    -webkit-transition: 0.5s all ease-in-out;
-    -moz-transition: 0.5s all ease-in-out;
-    -o-transition: 0.5s all ease-in-out;
-    -ms-transition: 0.5s all ease-in-out;
-    transition: 0.5s all ease-in-out;
+    background-image: linear-gradient(90deg, #ffffff00 20%, #ffffff16 50%, #ffffff00 80%), url(../img/grid.svg);
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
 }
 
 
@@ -1043,19 +1058,19 @@ section#falaq-featured img{
 }
 
 
-section#services, section#services-dev, section#services-ai, section#services-brand, section.grid-img{
+section.grid-img{
     background-image: linear-gradient(22.5deg, #ffffff00 10%, #ffffff08 50%, #ffffff00 90%), url(../img/grid.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-section#products{
+section.falaq-arc{
     background-image: linear-gradient(22.5deg, #ffffff00 10%, #ffffff08 50%, #ffffff00 90%), url(../img/falaq-arc.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-section#contact-form-section, section#works, section#services-ux, section#services-app, section.dots-img{
+section.dots-img{
     background-image: linear-gradient(22.5deg, #ffffff00 10%, #ffffff08 50%, #ffffff00 90%), url(../img/dots.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1220,14 +1235,14 @@ footer .social-icons img{
 
 
 footer a.link{
-    color: #fff;
+    color: #ffffff;
 }
 footer a.link:hover{
-    color: #1FB6FF;
+    color: #40ED99;
 }
 
 footer .social-icons a:hover { 
-    color: #fff;
+    color: #ffffff;
 }
 footer .social-icons a, footer .social-icons a:hover{
     -webkit-transition: 0.5s all ease-in-out;

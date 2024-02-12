@@ -2,10 +2,10 @@
 
 header{
     overflow: hidden;
-    background: #141518cc;
+    background: #14151848;
     width: 100%;
     max-width: none;
-    height: 64vh;
+    min-height: 64vh;
     margin: 0%;
     border-radius: 0;
 }
